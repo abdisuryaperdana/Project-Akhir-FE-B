@@ -1,79 +1,63 @@
 <template>
     <div>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <div class="py-4 container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Baris Judul-->
                     <section class="row mb-3">
                         <div class="col-12">
-                            <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
-                                <p class="fw-bolder" style="color: #596EAF">LIST PART DELIVERY</p>
+                            <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 58px">
+                                <p class="fw-bolder" style="color: #596EAF; font-family: 'Montserrat'; font-weight: 700; line-height: 20px; font-size: 16px; align-items: center; width: 173px; height: 20px;">LIST PART DELIVERY
+                                </p>
                                 <div class="d-flex flex-col gap-2 align-items-start">
                                     <div>
-                                        <p class="fst-italic fw-bold">Nama Admin</p>
-                                        <p class="mt-n4 fst-italic fw-lighter">Finish Good</p>
+                                        <p class="fst-italic fw-bold" style="color: #000000; font-family: 'Montserrat'">Nama Admin</p>
+                                        <p class="mt-n4 fst-italic fw-lighter" style="color: #9F9FD9;">Finish Good</p>
                                     </div>
                                     <img src="/src/assets/img/stechoq/finish-good/logo-stechoq.png" alt="logo" width="40" height="40">
                                 </div>
                             </div>
                         </div>
                     </section>
-
                     <!--Baris Main Content-->
                     <section class="row">
                         <div class="col-md-12">
-                            <div class="col bg-white shadow table-responsive">
+                            <div class="col bg-white table-responsive">
                                 <section class="row">
-                                    <table class="table table-hover align-middle" style="font-size: 11px">
-                                        <thead class="fw-bolder">
+                                    <table class="table table-hover align-middle" style="font-size: 12px; tab-size: 18cm;" >
+                                        <thead class="fw-bolder" style="font-family: 'Montserrat'; font-weight: 700; font-size: 14px; line-height: 17px; color: #000000;">
                                             <tr>
-                                                <th scope="col" colspan="3" class="align-middle text-start">Part Name</th>
-                                                <th scope="col" class="align-middle text-center">QTY</th>
-                                                <th scope="col" class="align-middle text-center">Customer</th>
-                                                <th scope="col" class="align-middle text-center">Deliv. Date</th>
-                                                <th scope="col" class="align-middle text-center">Supplier</th>
+                                                <th scope="col" colspan="6" class="align-middle text-start fst-italic" style="font-family:Arial, Helvetica, sans-serif; color: #000000;">List Part</th>
+                                            </tr>
+                                            <tr>
+                                                <th scope="col" colspan="3" class="align-middle text-start">File Name</th>
+                                                <th scope="col" class="align-middle text-center">Time</th>
+                                                <th scope="col" class="align-middle text-center fst-italic">Deliv. Date</th>
                                                 <th scope="col" class="align-middle text-center"></th>
                                             </tr>
                                         </thead>
-                                        <tbody class="ps-5">
+                                        <tbody class="ps-5" style="font-family: 'Montserrat'; font-weight: 400; font-size: 12px; line-height: 15px; color: #000000;">
                                             <tr v-for="(item, index) in g$list" :key="index">
                                                 <td class="ps-4 align-middle text-start" scope="col" colspan="3" style="word-wrap: break-word;">{{item.partName}}</td>
-                                                <td class="text-center">{{item.qty}}</td>
-                                                <td class="align-middle text-center">{{item.customer}}</td>
+                                                <td class="align-middle text-center">{{item.time}}</td>
                                                 <td class="align-middle text-center">{{item.delivDate}}</td>
-                                                <td class="align-middle text-center">{{item.supplier}}</td>
                                                 <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-primary fst-italic"
-                                                        >Detail</RouterLink>
+                                                    <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"                                    
+                                                        >Download by Supplier</button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td class="ps-4 align-middle text-start" scope="col" colspan="3" style="word-wrap: break-word;">CONSOLE FLOOR FR LWR</td>
-                                                <td class="text-center">10</td>
-                                                <td class="align-middle text-center">HPP</td>
+                                                <td class="align-middle text-center">10:23 AM</td>
                                                 <td class="align-middle text-center">23/10/2022</td>
-                                                <td class="align-middle text-center">TKI</td>
                                                 <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-primary fst-italic"
-                                                        >Detail</RouterLink>
+                                                    <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"                                    
+                                                        >Download by Supplier</button>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                </section>
-
-                                <!--Download Button-->
-                                <section class="mt-4 row text-center">
-                                    <div class="row-2 text-center align-items-center justify-content-center">
-                                        <img src="/src/assets/img/stechoq/finish-good/download.png" alt="download.png" width="100">
-                                    </div>
-                                    <div class="row-2 text-center align-items-center justify-content-center mt-2">
-                                        <button @click="showPopUp = true" type="button" class="btn btn-success">Download by Supplier</button>
-                                    </div>
                                 </section>
                             </div>
                         </div>
