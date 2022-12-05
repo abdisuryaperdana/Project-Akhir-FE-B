@@ -9,6 +9,7 @@ const d$delivery = defineStore({
                 "partName": "CONSOLE FLOOR FR LWR",
                 "qty": 10,
                 "customer": "HPP",
+                "time": "08:00 AM",
                 "delivDate": "23/10/2022",
                 "supplier": "TKI"
             },
@@ -17,6 +18,7 @@ const d$delivery = defineStore({
                 "partName": "GARNISH RR BUMPER LWR (IPL)",
                 "qty": 1,
                 "customer": "HPP",
+                "time": "08:25 AM",
                 "delivDate": "23/10/2022",
                 "supplier": "TKI"
             },
@@ -25,6 +27,7 @@ const d$delivery = defineStore({
                 "partName": "Tailgate Ikuyo",
                 "qty": 1,
                 "customer": "HPP",
+                "time": "08:32 AM",
                 "delivDate": "23/10/2022",
                 "supplier": "TKI"
             },
@@ -33,6 +36,7 @@ const d$delivery = defineStore({
                 "partName": "REINFORCEMENT STEP RH/LH",
                 "qty": 10,
                 "customer": "VB",
+                "time": "09:45 AM",
                 "delivDate": "23/10/2022",
                 "supplier": "SUZUKI"
             },
@@ -41,6 +45,7 @@ const d$delivery = defineStore({
                 "partName": "SPACER RR SEAT TURN SIDE",
                 "qty": 20,
                 "customer": "VB",
+                "time": "10:09 AM",
                 "delivDate": "23/10/2022",
                 "supplier": "SUZUKI"
             },
