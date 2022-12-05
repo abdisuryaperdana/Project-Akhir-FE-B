@@ -60,7 +60,7 @@
                                             <th scope="col">File Name</th>
                                             <th scope="col">Upload Data</th>
                                             <th scope="col">Time</th>
-                                            <th scope="col">Description</th>
+                                            
                                             <th></th>
     
                                         </tr>
@@ -70,7 +70,7 @@
                                             <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">List Work Order 1</td>
                                             <td class="ps-4 align-middle text-start">23/10/2022</td>
                                             <td class="ps-4 align-middle text-start">08:59 AM</td>
-                                            <td class="ps-4 align-middle text-start">Original Plan</td>
+                                            
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
@@ -87,7 +87,7 @@
                                             <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">List Work Order 1</td>
                                             <td class="ps-4 align-middle text-start">23/10/2022</td>
                                             <td class="ps-4 align-middle text-start">08:59 AM</td>
-                                            <td class="ps-4 align-middle text-start">Original Plan</td>
+                                            
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
@@ -104,7 +104,7 @@
                                             <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">List Work Order 1</td>
                                             <td class="ps-4 align-middle text-start">23/10/2022</td>
                                             <td class="ps-4 align-middle text-start">08:59 AM</td>
-                                            <td class="ps-4 align-middle text-start">Original Plan</td>
+                                            
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
