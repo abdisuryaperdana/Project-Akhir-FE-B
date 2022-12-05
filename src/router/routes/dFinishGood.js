@@ -44,7 +44,16 @@ const dFinishGood = {
               // which is lazy-loaded when the route is visited.
               component: () => import('@/views/Dashboard-FG/Production/Production.vue'),
               // meta: { auth: true }
-          }
+          },
+          {
+            path: 'detail-production',
+            name: 'detail-production',
+            // route level code-splitting
+            // this generates a separate chunk (About.[hash].js) for this route
+            // which is lazy-loaded when the route is visited.
+            component: () => import('@/views/Dashboard-FG/Production/DetailProduction.vue'),
+            // meta: { auth: true }
+        },
         ]
       },
     ],

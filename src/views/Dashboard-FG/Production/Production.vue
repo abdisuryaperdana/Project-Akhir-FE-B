@@ -77,7 +77,7 @@
                                                         class="btn btn-warning fst-italic me-2"
                                                     >Delete</RouterLink>
                                                     <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
+                                                        to="/dashboard-finish-good/production/detail-production"
                                                         class="btn btn-primary fst-italic"
                                                     >Detail</RouterLink>
                                             </td>
@@ -94,7 +94,7 @@
                                                         class="btn btn-warning fst-italic me-2"
                                                     >Delete</RouterLink>
                                                     <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
+                                                        to="/dashboard-finish-good/production/detail-production"
                                                         class="btn btn-primary fst-italic"
                                                     >Detail</RouterLink>
                                             </td>
@@ -111,7 +111,7 @@
                                                         class="btn btn-warning fst-italic me-2"
                                                     >Delete</RouterLink>
                                                     <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
+                                                        to="/dashboard-finish-good/production/detail-production"
                                                         class="btn btn-primary fst-italic"
                                                     >Detail</RouterLink>
                                             </td>

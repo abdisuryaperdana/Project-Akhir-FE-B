@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 
 const d$production = defineStore({
-    id: 'delivery',
+    id: 'production',
     state: () => ({
        file: []
     }),
