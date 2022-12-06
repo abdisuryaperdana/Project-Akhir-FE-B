@@ -6,6 +6,7 @@ const d$production = defineStore({
        file: []
     }),
     actions: {
+        // actions upload file
         async a$upload(form) {
             try {
                 // const data = await s$file.upload(form);
@@ -15,7 +16,11 @@ const d$production = defineStore({
             } catch (error) {
                 throw error
             }
-        }
+        },
+        // buat actions get list file 
+        async a$listFile() {
+            
+        },
     },
     getters: {
       

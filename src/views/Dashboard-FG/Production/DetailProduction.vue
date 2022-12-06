@@ -9,6 +9,7 @@
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
                             <p class="fw-bolder" style="color: #596EAF">LIST PART</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
+                                <!--Implementasi g$user name dan role disini-->
                                 <div>
                                     <p class="fw-bold" style="color: #000000" >Nama Admin</p>
                                     <p class="mt-n4 fw-lighter" style="color: #9F9FD9;">Finish Good</p>
