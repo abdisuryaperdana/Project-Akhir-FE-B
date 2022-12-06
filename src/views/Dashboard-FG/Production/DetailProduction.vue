@@ -36,7 +36,6 @@
                                             <th scope="col">Prod.Date</th>
                                             <th scope="col">Qty/Box</th>
                                             <th scope="col">Total Order Pcs</th>
-                                           
                                             <th scope="col">Total Box</th>
                                             <th scope="col">Supplier</th>
                                             <th></th>
@@ -195,9 +194,11 @@ export default {
     methods: {
         async downloadBtn() {
             try {
-                var imgData = await QRCode.toDataURL('DELIV-23102022')
+                var datalabelbox = ['Label Box','Name : CONSOLE FLOOR FR LWR','Qty : 10','Prod.Date : 05/12/2022','No.Work Order : 123328493','Supplier : TKI'];
+                var imgData = await QRCode.toDataURL(this.g$list);
                 const doc = new jsPDF('p', 'mm', 'a4');
-                doc.addImage(imgData, 'PNG', 100, 10);
+                doc.text(datalabelbox,70,10)
+                doc.addImage(imgData, 'PNG', 70, 50);
                 // doc.addImage(imgData, 'PNG', 15, 40, 180, 180);
                 doc.save('barcode.pdf');
             } catch (err) {
