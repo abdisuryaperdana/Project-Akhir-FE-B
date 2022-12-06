@@ -118,7 +118,7 @@ export default {
         }
     },
     computed: {
-        ...mapState(d$auth, ['g$user']),
+        // ...mapState(d$auth, ['g$user']),
         ...mapState(d$delivery, ['g$list']),
         ...mapState(d$delivery, ['g$supplier']),
     },
