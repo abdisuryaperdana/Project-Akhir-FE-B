@@ -11,6 +11,7 @@
                                 <p class="fw-bolder" style="color: #596EAF; font-family: 'Montserrat'; font-weight: 700; line-height: 20px; font-size: 16px; align-items: center; width: 173px; height: 20px;">LIST PART DELIVERY
                                 </p>
                                 <div class="d-flex flex-col gap-2 align-items-start">
+                                    <!--Implementasi g$user name dan role disini-->
                                     <div>
                                         <p class="fst-italic fw-bold" style="color: #000000; font-family: 'Montserrat'">Nama Admin</p>
                                         <p class="mt-n4 fst-italic fw-lighter" style="color: #9F9FD9;">Finish Good</p>
@@ -38,6 +39,7 @@
                                             </tr>
                                         </thead>
                                         <tbody class="ps-5" style="font-family: 'Montserrat'; font-weight: 400; font-size: 12px; line-height: 15px; color: #000000;">
+                                            <!--looping getters list file disini-->
                                             <tr v-for="(item, index) in g$list" :key="index">
                                                 <td class="ps-4 align-middle text-start" scope="col" colspan="3" style="word-wrap: break-word;">{{item.partName}}</td>
                                                 <td class="align-middle text-center">{{item.time}}</td>
@@ -116,6 +118,7 @@ export default {
         }
     },
     computed: {
+        // ...mapState(d$auth, ['g$user']),
         ...mapState(d$delivery, ['g$list']),
         ...mapState(d$delivery, ['g$supplier']),
     },

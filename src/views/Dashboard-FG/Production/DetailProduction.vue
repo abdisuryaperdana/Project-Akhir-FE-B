@@ -9,6 +9,7 @@
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
                             <p class="fw-bolder" style="color: #596EAF">LIST PART</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
+                                <!--Implementasi g$user name dan role disini-->
                                 <div>
                                     <p class="fw-bold" style="color: #000000" >Nama Admin</p>
                                     <p class="mt-n4 fw-lighter" style="color: #9F9FD9;">Finish Good</p>
@@ -27,7 +28,7 @@
                                 <table class="table table-hover align-middle" style="font-family:Montserrat ; color: #000000;  font-size: 11px;">
                                     <thead class="fw-bolder" >
                                         <tr>
-                                                <th scope="col" colspan="9" class="align-middle text-start" style="font-family:Arial, Helvetica, sans-serif;">List Work Order</th>
+                                                <th scope="col" colspan="9" class="align-middle text-start" style="font-family:Montserrat">List Work Order</th>
                                             </tr>
                                         <tr>
                                             <th scope="col">Part Name</th>
