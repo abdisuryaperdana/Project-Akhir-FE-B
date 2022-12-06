@@ -67,7 +67,7 @@
                                         </tr>
                                     </thead>
                                     <tbody class="ps-5">
-                                        // looping getters list file disini
+                                        <!--looping getters list file disini-->
                                         <tr>
                                             <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">List Work Order 1</td>
                                             <td class="ps-4 align-middle text-start">23/10/2022</td>

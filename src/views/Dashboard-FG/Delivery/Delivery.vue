@@ -39,7 +39,7 @@
                                             </tr>
                                         </thead>
                                         <tbody class="ps-5" style="font-family: 'Montserrat'; font-weight: 400; font-size: 12px; line-height: 15px; color: #000000;">
-                                            // looping getters list file disini
+                                            <!--looping getters list file disini-->
                                             <tr v-for="(item, index) in g$list" :key="index">
                                                 <td class="ps-4 align-middle text-start" scope="col" colspan="3" style="word-wrap: break-word;">{{item.partName}}</td>
                                                 <td class="align-middle text-center">{{item.time}}</td>
