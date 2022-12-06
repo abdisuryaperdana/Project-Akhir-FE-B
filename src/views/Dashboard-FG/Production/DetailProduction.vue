@@ -27,7 +27,7 @@
                                 <table class="table table-hover align-middle" style="font-family:Montserrat ; color: #000000;  font-size: 11px;">
                                     <thead class="fw-bolder" >
                                         <tr>
-                                                <th scope="col" colspan="9" class="align-middle text-start" style="font-family:Arial, Helvetica, sans-serif;">List Work Order</th>
+                                                <th scope="col" colspan="9" class="align-middle text-start" style="font-family:Montserrat">List Work Order</th>
                                             </tr>
                                         <tr>
                                             <th scope="col">Part Name</th>
