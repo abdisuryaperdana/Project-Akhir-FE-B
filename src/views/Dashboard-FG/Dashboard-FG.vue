@@ -4,12 +4,12 @@
     </div>
 </template>
 <script>
-import SideNavFG from '../../components/finish-good/SideNavFG.vue';
+// import SideNavFG from '../../components/finish-good/SideNavFG.vue';
 
 export default {
   name: "index",
   components: {
-    SideNavFG
+    // SideNavFG
   },
   data() {
     return {

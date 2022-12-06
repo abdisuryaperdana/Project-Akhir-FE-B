@@ -8,6 +8,7 @@
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
                             <p class="fw-bolder" style="color: #596EAF">UPLOAD FILE WORK ORDER</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
+                                <!--Implementasi g$user name dan role disini-->
                                 <div>
                                     <p class="fst-italic fw-bold">Nama Admin</p>
                                     <p class="mt-n4 fst-italic fw-lighter">Finish Good</p>
@@ -66,6 +67,7 @@
                                         </tr>
                                     </thead>
                                     <tbody class="ps-5">
+                                        // looping getters list file disini
                                         <tr>
                                             <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">List Work Order 1</td>
                                             <td class="ps-4 align-middle text-start">23/10/2022</td>
@@ -136,14 +138,20 @@
 <script>
 import { Upload } from "upload-js";
 const upload = Upload({ apiKey: "free" });
-import { mapActions } from 'pinia';
+import { mapActions, mapState } from 'pinia';
 import d$production from '@/stores/finish-good/production.js';
+import d$auth from '@/stores/auth.js';
 
 export default {
     data () {
         return {
             fileUpload: null
         }
+    },
+    computed: {
+        ...mapState(d$auth, ['g$user']),
+        // ...mapState(d$delivery, ['g$list']),
+        // ...mapState(d$delivery, ['g$supplier']),
     },
     methods: {
         async onSubmit(e){

@@ -8,6 +8,7 @@
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
                             <p class="fw-bolder" style="color: #596EAF">DETAIL PRODUCTION</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
+                                <!--Implementasi g$user name dan role disini-->
                                 <div>
                                     <p class="fst-italic fw-bold">Nama Admin</p>
                                     <p class="mt-n4 fst-italic fw-lighter">Finish Good</p>
