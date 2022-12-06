@@ -1,17 +1,18 @@
 <template>
     <div class="py-4 container-fluid">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <div class="row">
             <div class="col-lg-12">
                 <!-- Baris Judul-->
                 <section class="row mb-3">
                     <div class="col-12">
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
-                            <p class="fw-bolder" style="color: #596EAF">DETAIL PRODUCTION</p>
+                            <p class="fw-bolder" style="color: #596EAF">LIST PART</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
                                 <!--Implementasi g$user name dan role disini-->
                                 <div>
-                                    <p class="fst-italic fw-bold">Nama Admin</p>
-                                    <p class="mt-n4 fst-italic fw-lighter">Finish Good</p>
+                                    <p class="fw-bold" style="color: #000000" >Nama Admin</p>
+                                    <p class="mt-n4 fw-lighter" style="color: #9F9FD9;">Finish Good</p>
                                 </div>
                                 <img src="/src/assets/img/stechoq/finish-good/logo-stechoq.png" alt="logo" width="40" height="40">
                             </div>
@@ -24,8 +25,11 @@
                     <div class="col-md-12">
                         <div class="col bg-white shadow table-responsive">
                             <section class="row">
-                                <table class="table table-hover align-middle" style="font-size: 11px">
-                                    <thead class="fw-bolder">
+                                <table class="table table-hover align-middle" style="font-family:Montserrat ; color: #000000;  font-size: 11px;">
+                                    <thead class="fw-bolder" >
+                                        <tr>
+                                                <th scope="col" colspan="9" class="align-middle text-start" style="font-family:Arial, Helvetica, sans-serif;">List Work Order</th>
+                                            </tr>
                                         <tr>
                                             <th scope="col">Part Name</th>
                                             <th scope="col">No. Work Order</th>
@@ -52,14 +56,9 @@
                                             <td class="align-middle text-center">90</td>
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
-                                                    >Print</RouterLink>
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
-                                                    >Confirm Edit</RouterLink>
+                                                <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                    >Print</button>
+
                                             </td>
                                             
                                         </tr>
@@ -75,14 +74,9 @@
                                             <td class="align-middle text-center">90</td>
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
-                                                    >Print</RouterLink>
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
-                                                    >Confirm Edit</RouterLink>
+                                                <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                    >Print</button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -97,14 +91,9 @@
                                             <td class="align-middle text-center">90</td>
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
-                                                    >Print</RouterLink>
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
-                                                    >Confirm Edit</RouterLink>
+                                                <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                    >Print</button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -119,14 +108,10 @@
                                             <td class="align-middle text-center">90</td>
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
-                                                    >Print</RouterLink>
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
-                                                    >Confirm Edit</RouterLink>
+                                                    
+                                                    <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                    >Print</button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -141,14 +126,9 @@
                                             <td class="align-middle text-center">90</td>
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
-                                                    >Print</RouterLink>
-                                                    <RouterLink
-                                                        to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #5280F6; color: white;"
-                                                    >Confirm Edit</RouterLink>
+                                                <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                    >Print</button>
+
                                             </td>
                                         </tr>
                                     </tbody>
@@ -157,7 +137,6 @@
                         </div>
                     </div>
                 </section>
-
 
                  <!-- Baris Footer-->
                 <section class="row">
@@ -170,4 +149,63 @@
             </div>
         </div>
     </div>
+        <!--Pop Up-->
+    <section v-if="showPopUp === true">
+        <div class="pop-up row bg-white shadow-lg px-5 py-4 rounded border border-primary" style="width: 700px; height: 170px; position: fixed; top: 220px; right: 150px">
+            <form class="row align-items-center justify-content-center text-center">
+                <div class="row-2 text-center align-items-center justify-content-center">
+                    <p class="fw-bold">Select Supplier</p>
+                </div>
+                <div class="row-2 text-center align-items-center justify-content-center mb-2 px-2" style="width: 500px; position: relative;">
+                    <select class="form-control" id="exampleFormControlSelect1" aria-placeholder="TKI" style="cursor: pointer;">
+                        <option v-for="(item, index) in g$supplier" :key="index">{{item.supplier}}</option>
+                    </select>
+                    <div style="position: absolute; right: .8rem; top: .6rem;">
+                        <i class="ni ni-bold-down text-dark" style="cursor: pointer;"></i>
+                    </div>
+                </div>
+                <div class="row-2 text-center align-items-center justify-content-center">
+                    <button @click="downloadBtn" type="button" class="btn btn-secondary row">Download</button>
+                </div>
+            </form>
+            <div @click="showPopUp = false" class="col text-end" style="position: absolute; right: 2px; top: 5px">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" style="cursor: pointer;">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </div>
+        </div>
+    </section>
 </template>
+
+<script>
+import { mapState } from 'pinia'
+import d$delivery from '@/stores/finish-good/delivery.js';
+import QRCode from 'qrcode'
+import { jsPDF } from 'jspdf';
+
+export default {
+    data() {
+        return {
+            showPopUp: ''
+        }
+    },
+    computed: {
+        ...mapState(d$delivery, ['g$list']),
+        ...mapState(d$delivery, ['g$supplier']),
+    },
+    methods: {
+        async downloadBtn() {
+            try {
+                var imgData = await QRCode.toDataURL('DELIV-23102022')
+                const doc = new jsPDF('p', 'mm', 'a4');
+                doc.addImage(imgData, 'PNG', 100, 10);
+                // doc.addImage(imgData, 'PNG', 15, 40, 180, 180);
+                doc.save('barcode.pdf');
+            } catch (err) {
+                console.error(err)
+            }
+            
+        }
+    }
+};
+</script>
