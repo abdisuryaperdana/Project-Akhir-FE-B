@@ -54,11 +54,11 @@
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm"
+                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
                                                     >Print</RouterLink>
                                                     <RouterLink
                                                         to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm"
+                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
                                                     >Confirm Edit</RouterLink>
                                             </td>
                                             
@@ -77,11 +77,11 @@
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm"
+                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
                                                     >Print</RouterLink>
                                                     <RouterLink
                                                         to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm"
+                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
                                                     >Confirm Edit</RouterLink>
                                             </td>
                                         </tr>
@@ -99,11 +99,11 @@
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm"
+                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
                                                     >Print</RouterLink>
                                                     <RouterLink
                                                         to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm"
+                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
                                                     >Confirm Edit</RouterLink>
                                             </td>
                                         </tr>
@@ -121,11 +121,11 @@
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm"
+                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
                                                     >Print</RouterLink>
                                                     <RouterLink
                                                         to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm"
+                                                        class="btn btn-primary btn-sm" style="background-color: #5280F6; color: white;"
                                                     >Confirm Edit</RouterLink>
                                             </td>
                                         </tr>
@@ -143,11 +143,11 @@
                                             <td  class="align-middle text-center">
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
-                                                        class="btn btn-success fst-italic btn-sm"
+                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #83FF57;"
                                                     >Print</RouterLink>
                                                     <RouterLink
                                                         to="/dashboard-finish-good/production/detail-production"
-                                                        class="btn btn-primary btn-sm"
+                                                        class="btn btn-success fst-italic btn-sm" style="background-color: #5280F6; color: white;"
                                                     >Confirm Edit</RouterLink>
                                             </td>
                                         </tr>
