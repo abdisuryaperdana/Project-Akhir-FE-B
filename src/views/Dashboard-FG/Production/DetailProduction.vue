@@ -56,7 +56,7 @@
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
                                                     
-                                                    <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                    <button @click="downloadBtn" type="button" class="btn btn-success"  style="background-color: #83FF57;"
                                                     >Print</button>
 
                                             </td>
@@ -73,7 +73,7 @@
                                             <td class="align-middle text-center">90</td>
                                             <td class="ps-4 align-middle text-start">TKI</td>
                                             <td  class="align-middle text-center">
-                                                <button @click="showPopUp = true" type="button" class="btn btn-success"  style="background-color: #83FF57;"
+                                                <button @click="downloadBtn" type="button" class="btn btn-success"  style="background-color: #83FF57;"
                                                     >Print</button>
 
                                             </td>
@@ -146,10 +146,13 @@ export default {
                 var datalabelbox = ['Label Box','Name : CONSOLE FLOOR FR LWR','Qty : 10','Prod.Date : 05/12/2022','No.Work Order : 123328493','Supplier : TKI'];
                 var imgData = await QRCode.toDataURL(this.g$list);
                 const doc = new jsPDF('p', 'mm', 'a4');
-                doc.text(datalabelbox,70,10)
-                doc.addImage(imgData, 'PNG', 70, 50);
-                // doc.addImage(imgData, 'PNG', 15, 40, 180, 180);
+                for (let i=1; i <= 90; i++){
+                    doc.text(datalabelbox,70,10)
+                    doc.addImage(imgData, 'PNG', 70, 50, null, null, "a"+i, "FAST");
+                    doc.addPage()
+                }
                 doc.save('barcode.pdf');
+                // doc.addImage(imgData, 'PNG', 15, 40, 180, 180);
             } catch (err) {
                 console.error(err)
             }
