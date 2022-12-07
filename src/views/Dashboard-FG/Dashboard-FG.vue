@@ -1,9 +1,4 @@
 <template>
-    <div>
-        <p>Ini Dashboard FG</p>
-    </div>
-
-    
   <div class="py-4 container-fluid">
       <div class="row">
           <div class="col-lg-12">
