@@ -111,8 +111,13 @@
                         <i class="ni ni-bold-down text-dark" style="cursor: pointer;"></i>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="row-2 text-center align-items-center justify-content-center">
                     <button @click="downloadBtn" type="button" class="btn btn-secondary row">Download</button>
+=======
+                <div class="row-2 text-center align-items-center justify-content-center ms-3">
+                    <button @click="editBtn" type="button" class="btn btn-primary row">Confirm Edit</button>
+>>>>>>> 3cb1012a4132d366e4303664dd2095abf7c5a04b
                 </div>
             </form>
             <div @click="showPopUp = false" class="col text-end" style="position: absolute; right: 2px; top: 5px">
