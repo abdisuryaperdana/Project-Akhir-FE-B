@@ -2,6 +2,8 @@
     <div>
         <p>Ini Dashboard FG</p>
     </div>
+
+    
 </template>
 <script>
 // import SideNavFG from '../../components/finish-good/SideNavFG.vue';
