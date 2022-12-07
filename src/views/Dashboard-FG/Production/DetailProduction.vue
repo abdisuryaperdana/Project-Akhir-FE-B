@@ -120,7 +120,7 @@
                     <p class="mt-2">Total Box</p>
                 </div>
                 <div class="row-2 text-center align-items-center justify-content-center ms-3">
-                    <button @click="downloadBtn" type="button" class="btn btn-primary row">Confirm Edit</button>
+                    <button @click="editBtn" type="button" class="btn btn-primary row">Confirm Edit</button>
                 </div>
             </form>
             <div @click="showPopUp = false" class="col text-end" style="position: absolute; right: 2px; top: 5px">
