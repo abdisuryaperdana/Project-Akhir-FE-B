@@ -74,6 +74,7 @@
                                             <td class="ps-4 align-middle text-start">08:59 AM</td>
                                             
                                             <td  class="align-middle text-center">
+                                                    <!--Implementasi actions DELETE disini-->
                                                     <RouterLink
                                                         to="/dashboard-finish-good/delivery/detail-part/1"
                                                         class="btn btn-warning fst-italic me-2"

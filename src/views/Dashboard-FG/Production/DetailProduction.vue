@@ -108,6 +108,7 @@
     </div>
         <!--Pop Up-->
     <section v-if="showPopUp === true">
+        <!--Implementasi actions edit disini-->
         <div class="pop-up row bg-white shadow-lg px-5 py-4 rounded border border-primary" style="width: 700px; height: 170px; position: fixed; top: 220px; right: 150px">
             <form class="row align-items-center justify-content-center text-center">
                 <div class="row-2 text-center align-items-center justify-content-center">
