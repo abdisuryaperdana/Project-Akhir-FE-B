@@ -32,7 +32,7 @@
                                                 <th scope="col" colspan="6" class="align-middle text-start fst-italic" style="font-family:Arial, Helvetica, sans-serif; color: #000000;">List Part</th>
                                             </tr>
                                             <tr>
-                                                <th scope="col" colspan="3" class="align-middle text-start">File Name</th>
+                                                <th scope="col" class="align-middle text-start">File Name</th>
                                                 <th scope="col" class="align-middle text-center">Time</th>
                                                 <th scope="col" class="align-middle text-center fst-italic">Deliv. Date</th>
                                                 <th scope="col" class="align-middle text-center"></th>
@@ -41,7 +41,7 @@
                                         <tbody class="ps-5" style="font-family: 'Montserrat'; font-weight: 400; font-size: 12px; line-height: 15px; color: #000000;">
                                             <!--looping getters list file disini-->
                                             <tr v-for="(item, index) in g$list" :key="index">
-                                                <td class="ps-4 align-middle text-start" scope="col" colspan="3" style="word-wrap: break-word;">{{item.partName}}</td>
+                                                <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">{{item.partName}}</td>
                                                 <td class="align-middle text-center">{{item.time}}</td>
                                                 <td class="align-middle text-center">{{item.delivDate}}</td>
                                                 <td  class="align-middle text-center">
@@ -50,7 +50,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="ps-4 align-middle text-start" scope="col" colspan="3" style="word-wrap: break-word;">CONSOLE FLOOR FR LWR</td>
+                                                <td class="ps-4 align-middle text-start" scope="col" style="word-wrap: break-word;">CONSOLE FLOOR FR LWR</td>
                                                 <td class="align-middle text-center">10:23 AM</td>
                                                 <td class="align-middle text-center">23/10/2022</td>
                                                 <td  class="align-middle text-center">
