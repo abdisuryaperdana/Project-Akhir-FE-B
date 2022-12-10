@@ -110,6 +110,7 @@ import { mapState } from 'pinia'
 import d$delivery from '@/stores/finish-good/delivery.js';
 import QRCode from 'qrcode'
 import { jsPDF } from 'jspdf';
+import autoTable from 'jspdf-autotable'
 
 export default {
     data() {

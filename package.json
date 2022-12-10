@@ -27,6 +27,7 @@
     "core-js": "3.25.1",
     "dropzone": "6.0.0-beta.2",
     "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
     "pinia": "2.0.22",
     "qrcode": "^1.5.1",
     "quill": "1.3.7",
