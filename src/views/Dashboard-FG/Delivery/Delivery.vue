@@ -26,7 +26,7 @@
                         <div class="col-md-12">
                             <div class="col bg-white table-responsive">
                                 <section class="row">
-                                    <table class="table table-hover align-middle" style="font-size: 12px; tab-size: 18cm;" >
+                                    <table id="del-table" class="table table-hover align-middle" style="font-size: 12px; tab-size: 18cm;" >
                                         <thead class="fw-bolder" style="font-family: 'Montserrat'; font-weight: 700; font-size: 14px; line-height: 17px; color: #000000;">
                                             <tr>
                                                 <th scope="col" colspan="6" class="align-middle text-start fst-italic" style="font-family:Arial, Helvetica, sans-serif; color: #000000;">List Part</th>
@@ -127,8 +127,13 @@ export default {
         async downloadBtn() {
             try {
                 var imgData = await QRCode.toDataURL('DELIV-23102022')
-                const doc = new jsPDF('p', 'mm', 'a4');
-                doc.addImage(imgData, 'PNG', 100, 10);
+                const doc = new jsPDF({
+                        orientation: 'p', // landscape
+                        unit: 'px', // points, pixels won't work properly
+                        format: 'a4' // set needed dimensions for any element
+                });
+                doc.autoTable({ html: '#del-table' })
+                doc.addImage(imgData, 'PNG', 180, 170);
                 // doc.addImage(imgData, 'PNG', 15, 40, 180, 180);
                 doc.save('barcode.pdf');
             } catch (err) {
