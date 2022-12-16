@@ -6,7 +6,6 @@
                 <section class="row mb-3">
                     <div class="col-12">
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
-                            <p class="fw-bolder" style="color: #596EAF">UPLOAD FILE WORK ORDER</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
                                 <!--Implementasi g$user name dan role disini-->
                                 <div>

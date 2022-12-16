@@ -7,7 +7,6 @@
                 <section class="row mb-3">
                     <div class="col-12">
                         <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
-                            <p class="fw-bolder" style="color: #596EAF">LIST PART</p>
                             <div class="d-flex flex-col gap-2 align-items-start">
                                 <div>
                                     <p class="fw-bold" style="color: #000000" >Nama Admin</p>
@@ -98,9 +97,6 @@
                  <!-- Baris Footer-->
                 <section class="row">
                     <div>
-                        <div class="position-fixed bottom-0" style="width: 960px; height: 60px; z-index: 100; margin-top: 20px; background: linear-gradient(180deg, #9F9FD9 0%, #475FA7 100%);">
-                            <p class="text-white text-center py-3">@copyright2022</p>
-                        </div>
                     </div>
                 </section>
             </div>
