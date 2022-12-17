@@ -2,21 +2,21 @@
     <div class="py-4 container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <!-- Baris Judul-->
                 <section class="row mb-3">
-                    <div class="col-12">
-                        <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
-                            <div class="d-flex flex-col gap-2 align-items-start">
-                                <!--Implementasi g$user name dan role disini-->
-                                <div>
-                                    <p class="fst-italic fw-bold">Nama Admin</p>
-                                    <p class="mt-n4 fst-italic fw-lighter">Finish Good</p>
-                                </div>
-                                <img src="/src/assets/img/stechoq/finish-good/logo-stechoq.png" alt="logo" width="40" height="40">
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                  <div class="col-12">
+                      <div class="d-flex justify-content-between bg-white pt-2 ps-3 pe-3 shadow" style="height: 60px">
+                          <p class="fw-bolder" style="color: #596EAF">UPLOAD FILE WORK ORDER</p>
+                          <div class="d-flex flex-col gap-2 align-items-start">
+                            <!--Implementasi g$user name dan role disini-->
+                              <div>
+                                  <p class="fst-italic fw-bold">Nama Admin</p>
+                                  <p class="mt-n4 fst-italic fw-lighter">Finish Good</p>
+                              </div>
+                              <img src="/src/assets/img/stechoq/finish-good/logo-stechoq.png" alt="logo" width="40" height="40">
+                          </div>
+                      </div>
+                  </div>
+              </section>
 
                 <!--Baris Upload-->
                 <section class="row">
